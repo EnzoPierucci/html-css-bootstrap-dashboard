@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bool Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
+        <header>
+            <div class="background_header p-3">
+                <div class="container-fluid">
+                    <div class="row d-flex flex-row align-items-center">
+                        <div class="col-auto">
+                            <div>
+                                <img src="./img/logo.svg" class="d-none d-dm-block d-lg-block" alt="logo boolean">
+                                <img src="./img/mobile-logo.png" class="size_img d-sm-block d-dm-block d-lg-none" alt="logo boolean">
+                            </div>            
+                        </div>
+                        <div class="col">
+                            <nav class="navbar navbar_color">
+                                <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <i class="fa-solid fa-magnifying-glass" style="color: #9e9e9e;"></i>
+                                    <span>Cerca qui </span>
+                                </a>
+                                </div>
+                            </nav>                            
+                        </div>
+                        <div class="col-auto">
+                            <span class="d-none d-dm-none d-lg-inline-block">
+                                <i class="fa-solid fa-list-ul p-2 " style="color: #5B5858;"></i>
+                            </span> 
+                            <span class="d-none d-dm-none d-lg-inline-block"> 
+                                <i class="fa-solid fa-circle-info p-2" style="color: #5B5858;"></i>
+                            </span> 
+                            <span class="d-none d-dm-none d-lg-inline-block">
+                                <i class="fa-solid fa-ellipsis-vertical p-2" style="color: #5B5858;"></i> 
+                            </span>   
+                            <button class="allert" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell p-2" style="color: #f39512;"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </header>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.background_header{
+    background-color: #F8F9FA;
+    height: 100px;
+    width: 100%;
+}
+
+.allert{
+    border: none;
+    background-color: #F8F9FA;
+    display: inline-block;
+}
+
+.navbar_color{
+    background-color: #E5E5E5;
+}
+
+.size_img{
+    height: 70px;
+}
+
+
+
+nav> ul> li{
+    list-style: none;
+    color: white;
+}
+
