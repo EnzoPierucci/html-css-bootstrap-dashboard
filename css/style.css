@@ -33,7 +33,7 @@
     background-image: url('../img/sidebar-bg.png');
 }
 
-nav> ul> li{
+nav ul li{
     list-style: none;
     color: white;
 }
@@ -77,4 +77,9 @@ nav> ul> li{
     background-color: none;
     border-radius: 5px;
 }
+
+#offcanvasRight{
+    width: 60%;
+}
+
 
