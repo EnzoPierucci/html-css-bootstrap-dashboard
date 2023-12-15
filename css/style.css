@@ -78,12 +78,3 @@ nav> ul> li{
     border-radius: 5px;
 }
 
-#offcanvasRight{
-    width: 70%;
-}
-
-/* ANIMATION */
-.side_bar_option:hover{
-    background-color: lightgray;
-    padding: 4px;
-}
